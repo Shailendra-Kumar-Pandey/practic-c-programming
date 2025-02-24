@@ -14,13 +14,13 @@
     if(cost <= 5000)
         rate = 10;
     else
-        if(cost > 5000 && cost <= 20000)
+        if(cost <= 20000)
             rate = 20;
         else
-            if(cost > 20000 && cost <= 30000)
+            if(cost <= 30000)
                 rate = 30;
             else
-                if(cost > 30000 && cost <= 40000)
+                if(cost <= 40000)
                     rate = 40;
                 else
                     rate = 50;

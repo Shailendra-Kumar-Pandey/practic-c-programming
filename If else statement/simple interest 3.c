@@ -18,13 +18,13 @@
     if(principal <= 10000)
         rate = 10;
     else
-        if (principal > 10000 && principal <= 16000)
+        if (principal <= 16000)
             rate = 12;
         else
-            if(principal > 16000 && principal <= 25000)
+            if(principal <= 25000)
                 rate = 15;
             else
-                if(principal > 25000 && principal <= 35000)
+                if(principal <= 35000)
                     rate = 18;
                 else
                     rate = 20;

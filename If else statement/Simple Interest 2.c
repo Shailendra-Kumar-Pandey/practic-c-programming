@@ -15,7 +15,7 @@
     if(principal <= 8000)
         rate = 10;
     else
-        if(principal > 8000 && principal <= 15000)
+        if(principal <= 15000)
             rate = 15;
         else
             rate = 18;
