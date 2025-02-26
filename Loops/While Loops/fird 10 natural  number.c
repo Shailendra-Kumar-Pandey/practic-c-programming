@@ -1,4 +1,4 @@
-/* to Genrate and Print 1st 10 Natural Number */
+/* to Generate and Print 1st 10 Natural Number */
 
 #include<stdio.h>
 int main()
