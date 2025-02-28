@@ -3,7 +3,7 @@
 #include<stdio.h>
 int main()
 {
-    float i = 1, s = 0;
+    float i = 0, s = 0;
     while (i<20)
     {
         i = i + 1;
