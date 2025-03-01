@@ -7,7 +7,7 @@ int main()
     while (i<28)
     {
         i= i+4;
-        s= s+t;
+        s= s+i;
     }
     t= s-10;
     printf("\n Sum is =%d",t);
