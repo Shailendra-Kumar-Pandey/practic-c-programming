@@ -3,11 +3,12 @@
 #include<stdio.h>
 int main()
 {
-    float i = 0, s = 0;
+    float i = 0, t=0, s = 0;
     while (i<20)
     {
         i = i + 1;
-        s = s + (1/i);
+        t = 1/i;
+        s = s + t;
     }
     printf("\n Sum is = %f",s);
     return 0;
