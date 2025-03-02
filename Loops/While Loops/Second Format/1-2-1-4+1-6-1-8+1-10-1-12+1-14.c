@@ -3,13 +3,14 @@
 #include<stdio.h>
 int main()
 {
-    int i= 0, s= 0,t= 0;
+    float i= 0, s= 0,t= 0;
     while (i<14)
     {
         i= i+2;
         t= 1/i;
         s= s + t;
+        printf("\n number is = %f",t);
     }
-    printf("\n Calculate is = %d",s);
+    printf("\n Calculate is = %f",s);
     return 0;
 }
