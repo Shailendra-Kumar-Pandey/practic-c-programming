@@ -2,9 +2,9 @@
 
 #include<stdio.h>
 int main()
-{       /* CD= 6, i= i+6; i+6=1,i= 1-6, i=-5; s=-10, s= s+i */
+{       /* CD= 6, i= i+6; i+6=1,i= 1-6, [{i=-5}]; s=-10, s= s+i */
     int i= -5, s= -10;
-    while(i<35)
+    while(i<31)
         {
             i= i+6;
             s= s+i;
