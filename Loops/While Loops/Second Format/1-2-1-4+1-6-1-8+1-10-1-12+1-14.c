@@ -3,11 +3,15 @@
 #include<stdio.h>
 int main()
 {
-    float i= 0, s= 0,t= 0;
+    int i=0;
+    float s= 0,t= 0;
     while (i<14)
     {
         i= i+2;
-        t= 1/i;
+        if(i%4==0)
+            t= (1.0/i)*(-1);
+        else
+            t = (1.0/i)*(1);
         s= s + t;
         printf("\n number is = %f",t);
     }
