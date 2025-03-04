@@ -1,12 +1,12 @@
-/* 1!+2!+3!+4!+5! */
+/* 2!+4!+6!+8! */
 
 #include<stdio.h>
 int main()
 {       
     int i= 0, t=1,s=0;
-    while (i<5)
+    while (i<8)
     {
-        i = i+1;
+        i = i+2;
         t = t*i;
         s = s+t;
         printf("\n %d ",i);
