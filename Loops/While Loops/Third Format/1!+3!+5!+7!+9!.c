@@ -2,7 +2,7 @@
 
 #include<stdio.h>
 int main()
-{       
+{       /* CD=2; i=i+2, i+2=1, i=1-2, i=-1; t=1, t=t*i; */
     int i= -1, t=1,s=0;
     while (i<9)
     {
