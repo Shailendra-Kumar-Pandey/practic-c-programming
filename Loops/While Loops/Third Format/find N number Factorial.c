@@ -1,5 +1,4 @@
 /* Write a Program to Calculate and print Factorial N numbers */
-
 #include<stdio.h>
 int main()
 {
