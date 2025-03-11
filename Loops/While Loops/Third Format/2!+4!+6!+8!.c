@@ -9,7 +9,7 @@ int main()
         i = i+2;
         t = t*i*(i-1);
         s = s+t;
-        printf("\n %d ",i);
+        printf("\n %d %d %d ",i,t,s);
     }
     printf("\n\n Factorial is = %d",s);
     return 0;
