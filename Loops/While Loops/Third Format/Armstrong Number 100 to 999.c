@@ -1,4 +1,4 @@
-/* Write a Program to print all  Armstrong Number between 100 to 999. */
+/* Write a Program to print all  Armstrong Number between 100 to 999.[153=1^3+5^3+3^3=1+125+27=153] */
 #include<stdio.h>
 int main()
 {
