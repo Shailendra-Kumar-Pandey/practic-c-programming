@@ -1,4 +1,5 @@
-/* Write a program compare and print Biggest out of 7 numbers */
+/* Write a program compare and print Biggest out of 7 numbers 
+
 #include<stdio.h>
 int main()
 {
@@ -19,5 +20,73 @@ int main()
                                 printf("\n Biggest Number is = %d ",f);
                             else
                                 printf("\n Biggest Number is = %d",g);
+    return 0;
+}
+
+2nd method:-   
+
+#include<stdio.h>
+int main()
+{
+    int a,b,c,d,e,f,g,big;
+    printf("\n Enter first the Number : ");
+    scanf("%d",&a);
+    printf("\n Enter Second the Number : ");
+    scanf("%d",&b);
+    printf("\n Enter third the Number : ");
+    scanf("%d",&c);
+    printf("\n Enter forth the Number : ");
+    scanf("%d",&d);
+    printf("\n Enter fivth the Number : ");
+    scanf("%d",&e);
+    printf("\n Enter sixeth the Number : ");
+    scanf("%d",&f);
+    printf("\n Enter Seventh the Number : ");
+    scanf("%d",&g);
+    if(a>b)
+        big = a;
+    else
+        big = b;
+    if(c>big)
+        big = c;
+    if(d>big)
+        big = d;
+    if(e>big)
+        big = e;
+    if(f>big)
+        big = f;
+    if(g>big)
+        big = g;
+    printf("\n Biggest Number is = %d",big);
+    return 0;
+}
+
+3rd Method */
+
+#include<stdio.h>
+int main()
+{
+int a,b,c,d,e,f,g,big;
+    printf("\n Enter first the Number : ");
+    scanf("%d",&a);
+    printf("\n Enter Second the Number : ");
+    scanf("%d",&b);
+    printf("\n Enter third the Number : ");
+    scanf("%d",&c);
+    printf("\n Enter forth the Number : ");
+    scanf("%d",&d);
+    printf("\n Enter fivth the Number : ");
+    scanf("%d",&e);
+    printf("\n Enter sixeth the Number : ");
+    scanf("%d",&f);
+    printf("\n Enter Seventh the Number : ");
+    scanf("%d",&g);
+    big = a>b ? a : b;
+    big = c>big ? c : big;
+    big = d>big ? d : big;
+    big = e>big ? e : big;
+    big = f>big ? f : big;
+    big = g>big ? g : big;
+    printf("\n Biggest Number is = %d",big);
     return 0;
 }
