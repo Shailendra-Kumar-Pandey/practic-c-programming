@@ -1,4 +1,4 @@
-/* Write a program campare and print Smallest Number out of N Numbers */
+/* Write a program compare and print Smallest Number out of N Numbers */
 
 #include<stdio.h>
 int main()
