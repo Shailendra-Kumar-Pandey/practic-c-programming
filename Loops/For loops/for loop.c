@@ -9,6 +9,6 @@ int main()
         t = t*i;
         printf("\n %d ",i);
     }
-    printf("\n\n Factorial is = %d",t);
+    printf("\n Factorial is = %d",t);
     return 0;
 }
