@@ -4,7 +4,7 @@ int main()
 {
     int i;
     float radius, area;
-    for ( i = 0; i < 4; i++)
+    for ( i = 0; i < 4; i=i+1)
     {
         printf("\n Enter the Radius : ");
         scanf("%f",&radius);
