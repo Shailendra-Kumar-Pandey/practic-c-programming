@@ -1,4 +1,4 @@
-/* Write a Program to input day number print its equ day name */
+/* Write a Program to input day number print its day name */
 #include<stdio.h>
 int main()
 {
@@ -29,7 +29,7 @@ int main()
         printf("\n Day is Saturday...");
         break;
     default:
-        printf("\n Invailid Day Number...");
+        printf("\n Invalid Day Number...");
     }
     return 0;
 }
