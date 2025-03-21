@@ -16,6 +16,8 @@ int  main()
             case 2:
                 female = female + 1;
                 break;
+            case 3:
+                break;
             default:
                 printf("\n Please Enter Valid Employee Code....");
             }
