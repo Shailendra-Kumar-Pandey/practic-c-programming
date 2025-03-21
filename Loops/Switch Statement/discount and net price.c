@@ -25,7 +25,7 @@ int main()
                         d = c * r /100;
                         nc = c - d;
                         printf("\n Discount = %f  Net-Cost = %f ",d,nc);
-                break;
+                        break;
                 case 2:
                 case 3:
                         printf("\n Enter Cost Value :");
@@ -34,7 +34,7 @@ int main()
                         d = c * r /100;
                         nc = c - d;
                         printf("\n Discount = %f  Net-Cost = %f ",d,nc);
-                break;
+                        break;
                 case 4:
                 case 5:
                         printf("\n Enter Cost Value :");
@@ -43,7 +43,7 @@ int main()
                         d = c * r /100;
                         nc = c - d;
                         printf("\n Discount = %f  Net-Cost = %f ",d,nc);
-                break;
+                        break;
                 case 6:
                         printf("\n Enter Cost Value :");
                         scanf("%f",&c);
@@ -51,9 +51,9 @@ int main()
                         d = c * r /100;
                         nc = c - d;
                         printf("\n Discount = %f  Net-Cost = %f ",d,nc);
-                break;
+                        break;
                 case 7:
-                break;
+                        break;
                 default:
                         printf("\n Invalid Group Code...");
             }
