@@ -13,7 +13,6 @@ int main()
     float r, d, c, nc;
     do
     {
-        d = 0, nc = 0;
         printf("\n Enter Group Code (1-7) :");
         scanf("%d",&gc);
         switch (gc)
