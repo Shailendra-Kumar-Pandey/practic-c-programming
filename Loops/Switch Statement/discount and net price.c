@@ -5,7 +5,7 @@ if GC = 2 or 3 then R = 20%;
 if GC = 4 or 5 then R = 30%;
 if GC = 6 then R = 40%;
 to stop GC = 7 */
-
+// Method :-01
 #include<stdio.h>
 int main()
 {
@@ -109,5 +109,49 @@ int main()
 //                 default:
 //                         printf("\n Invalid Group Code...");
 //             }
+//     return 0;
+// }
+
+
+// Method :-02
+// #include<stdio.h>
+// int main()
+// {
+//     int gc;
+//     float r, d, c, nc;
+//     do
+//     {
+//         printf("\n Enter Group Code (1-7) :");
+//         scanf("%d",&gc);
+//         switch (gc)
+//             {
+//                 case 1:
+//                         r =10;
+//                         break;
+//                 case 2:
+//                 case 3:
+//                         r = 20;
+//                         break;
+//                 case 4:
+//                 case 5:
+//                         r = 30;
+//                         break;
+//                 case 6:
+//                         r = 40;
+//                         break;
+//                 case 7:
+//                         break;
+//                 default:
+//                         printf("\n Invalid Group Code...");
+//             }
+//     } while (gc!=7);
+//     if(gc>0 && gc<7)
+//         {       
+//                 printf("\n Enter Cost Value :");
+//                 scanf("%f",&c);
+//                 d = c * r /100;
+//                 nc = c - d;
+//                 printf("\n Discount = %f  Net-Cost = %f ",d,nc);
+//         }
 //     return 0;
 // }
