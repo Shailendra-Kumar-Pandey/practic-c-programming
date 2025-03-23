@@ -144,14 +144,14 @@ int main()
 //                 default:
 //                         printf("\n Invalid Group Code...");
 //             }
-//     } while (gc!=7);
-//     if(gc>0 && gc<7)
-//         {       
+//          if(gc>0 && gc<7)
+//              {
 //                 printf("\n Enter Cost Value :");
 //                 scanf("%f",&c);
 //                 d = c * r /100;
 //                 nc = c - d;
 //                 printf("\n Discount = %f  Net-Cost = %f ",d,nc);
-//         }
+//               }
+//     } while (gc!=7);
 //     return 0;
 // }
