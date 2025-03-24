@@ -40,7 +40,7 @@
         if (v == 6)
         {
             printf("\nFinal Result...");
-             if(bjp>cog && bjp>aap && bjp>sp && bjp>bsp)
+            if(bjp>cog && bjp>aap && bjp>sp && bjp>bsp)
                 printf("\nThe Winner is BJP with %d Votes",bjp);
             else
                 if (cog>aap && cog>sp && cog>bsp)
