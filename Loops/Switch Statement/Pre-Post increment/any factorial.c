@@ -2,13 +2,13 @@
 #include<stdio.h>
 int main()
 {
-    int i,n;
+    int n;
     float f=1;
     printf("\n Enter any Number : ");
     scanf("%d",&n);
-    for ( i = 1; i <= n; i++)
+    while(n>0)
     {
-        f = f*i;
+        f = f*n--;
     }
     printf("\n Factorial = %f",f);
     return 0;
