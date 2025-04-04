@@ -1,17 +1,18 @@
-/* Write a Program to compare to print Biggest out of 3 */
+/* Write a Program to compare to print Biggest out of 3 
+Take Something Return Something*/
 #include<stdio.h>
-int data(int,int,int);
+int big(int,int,int);
 int main()
 {
-    int a, b, c, big;
+    int a, b, c, d;
     printf("\n Enter 3 Numbers :");
     scanf("%d%d%d",&a,&b,&c);
-    big = data(a,b,c);
-    printf("\nBiggest Number is = %d",big);
+    d = big(a,b,c);
+    printf("\nBiggest Number is = %d",d);
     return 0;
 }
 
-int data(int x, int y, int z)
+int big(int x, int y, int z)
 {
     if(x>y && x>z)
         return (x);
