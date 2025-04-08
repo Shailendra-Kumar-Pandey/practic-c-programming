@@ -3,14 +3,14 @@
 void natural(int);
 void main()
 {
-    int n = 1;
+    int n = 10;
     natural(n);
 }
 void natural(int x)
 {
-    printf("  %d  ",x);
-    if(x == 10)
-        return;
-    else
-        natural(x+1);
+    if(x>0)
+    {
+        natural(x-1);
+        printf("  %d  ",x);
+    }
 }
