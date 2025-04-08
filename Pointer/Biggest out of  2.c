@@ -12,8 +12,9 @@ int main()
 }
 int big(int *x, int *y)
 {
-    if((*x)>(*y))
+    if((*x)>(+))
         return (*x);
     else
         return (*y);
 }
+ 
