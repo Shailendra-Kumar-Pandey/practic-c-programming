@@ -12,7 +12,11 @@ int main()
 }
 int volume(int x, int y, int z)
 {
-    int v = 0;
-    v = x * y * z;
-    return(v);
+    if(x>y && x>z)
+        return (x);
+    else
+        if(y>z)
+            return (y);
+        else
+            return (z);
 }
