@@ -1,0 +1,1 @@
+/* create an array of size 10 load it with first 10 natural number  */
