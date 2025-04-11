@@ -10,12 +10,12 @@ int main()
 }
 void fabb(int x, int y, int z)
 {   int t ;
-    if(x>0)
+    if(x==0)
         return;
     else
+    {
         t = y+z;
-        y = z;
-        z = t;
-        fabb(x-1,y,z);
-    printf("  %d ",t);
+        printf("  %d ",t);
+        fabb(x-1,z,t);
+    }
 }
