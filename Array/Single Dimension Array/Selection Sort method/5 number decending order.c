@@ -1,4 +1,5 @@
-/* Create an array of size 05 inputting number and show descending order print array */
+/* Create an array of size 05 inputting number and show descending order 
+print array (using Selection Sort Method) */
 #include<stdio.h>
 int swap(int,int);
 int main()
@@ -21,6 +22,7 @@ int main()
             }
         }
     }
+    printf("\nSort Array Element\n");
     for ( i = 0; i <= 4; i++)
         printf(" %d ",a[i]);
     return 0;
