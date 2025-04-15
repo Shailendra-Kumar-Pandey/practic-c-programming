@@ -13,6 +13,6 @@ int main()
     }
     printf("\n Array are Ever Number element:- \n");
     for ( i = 0; i <= 3; i++)
-        printf("\n %d \t%d \t%d \t%d",a[i][0],a[i][1],a[i][2],a[i][2]);
+        printf("\n %d \t%d \t%d \t%d",a[i][0],a[i][1],a[i][2],a[i][3]);
     return 0;
 }
