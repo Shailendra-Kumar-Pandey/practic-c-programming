@@ -21,7 +21,7 @@
             }
         }
     }
-    printf("\n Bubble Sort array element \n");
+    printf("\n Bubble gitSort array element \n");
     for ( i = 0; i <= 4; i++)
         printf(" %d ",a[i]);
     return 0;

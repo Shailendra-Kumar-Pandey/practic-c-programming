@@ -22,7 +22,7 @@ int main()
             }
         }
     }
-    printf("\nSort Array Element\n");
+    printf("\nSort Array Element\n"); 
     for ( i = 0; i <= 4; i++)
         printf(" %d ",a[i]);
     return 0;
