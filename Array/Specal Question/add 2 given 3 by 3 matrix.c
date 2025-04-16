@@ -2,20 +2,18 @@
 #include<stdio.h>
 int main()
 {
-    int a[4][4],i,j,big;
-    for ( i = 0; i <= 3; i++)
+    int a[3][3],b[3][3],add[3][3],i,j;
+    for ( i = 0; i <= 2; i++)
     {
-        for ( j = 0; j <= 3; j++)
+        for ( j = 0; j <= 2; j++)
         {
-            printf("\n Enter the Number :");
-            scanf("%d",&a[i][j]);
-            if (a[i][j]>big)
-                big = a[i][j];
+            printf("\n Enter two Number :");
+            scanf("%d %d",&a[i][j],&b[i][j]);
+            add[i][j] = a[i][j] + b[i][j];
         }
     }
-    printf("\n Array Element are \n");
-    for ( i = 0; i <= 3; i++)
-        printf("\n%d \t%d \t%d \t%d",a[i][0],a[i][1],a[i][2],a[i][3]);
-    printf("\n\n Biggest element in array = %d",big);
+    printf("\n Add Element are \n");
+    for ( i = 0; i <= 2; i++)
+        printf("\n%d \t%d \t%d",add[i][0],add[i][1],add[i][2]);
     return 0;
 }
