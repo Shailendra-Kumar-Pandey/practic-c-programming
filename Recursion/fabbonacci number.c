@@ -1,4 +1,4 @@
-/* Write a program to print fibonacci serises (Using Recursion) */
+/* Write a program to print Fibonacci series (Using Recursion) */
 #include<stdio.h>
 void fabb(int,int,int);
 int main()
@@ -10,7 +10,7 @@ int main()
 }
 void fabb(int x, int y, int z)
 {   int t ;
-    if(x==0)
+    if(x==2)
         return;
     else
     {

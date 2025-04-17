@@ -1,5 +1,5 @@
 /* Write a program to create an array of size 4 by 4 load array with any numbers.
- Print array as will as sum of 1st row Element */
+ Print array as will as sum of 1st row and 4th row Element */
  #include<stdio.h>
 int main()
 {
