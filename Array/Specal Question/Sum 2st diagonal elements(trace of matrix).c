@@ -1,5 +1,5 @@
 /* Write a program to create an array of size 4 by 4 load array with any numbers.
- Print array as will as sum of 1nd diagonal elements (trace of matrix) */
+ Print array as will as sum of 2nd diagonal elements (trace of matrix) */
  #include<stdio.h>
 int main()
 {
@@ -10,7 +10,7 @@ int main()
         {
             printf("\n Enter the Number :");
             scanf("%d",&a[i][j]);
-            if ((i==0 && j==3) || (i==1 && j==2) || (i==2 && j==1) || (i==3 && j==0))
+            if ((i+j==3))
                 sum = sum + a[i][j];
         }
     }
