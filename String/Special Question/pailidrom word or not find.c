@@ -2,22 +2,18 @@
 #include<stdio.h>
 int main()
 {
-    char word[25],b[25];
+    char word[25];
     int l, i, c=0;
     printf("\n Enter the any word:- ");
     scanf("%s",word);
     l = strlen(word);
+    printf("\n %d",l);
     for ( i = 0; i < l; i++)
     {
-        if(word[i]!= '\0')
-           {
-                b[l-1] =  word[i];
-           }
+        if(word[i]==word[l-1])
+            printf("\n This word is Palindrome...");
+        else
+            printf("\n This word is Not Palindrome...");
     }
-    if(b[i] == word[i])
-        printf("\n This word is Palindrome...");
-    else
-        printf("\n This word is Not Palindrome...");
-
     return 0;
 }
