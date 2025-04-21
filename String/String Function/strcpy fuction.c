@@ -1,4 +1,4 @@
-/* Write a program to using string function {strlen(<string name>)}  */
+/* Write a program to using string function {strcpy(<string name>)}  */
 #include<stdio.h>
 int main()
 {
