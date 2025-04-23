@@ -9,10 +9,10 @@ int main()
         a[i] = j;
     }
     p = &a[0];
-    printf("\nArray elenment are\n");
+    printf("\nArray element are\n");
     for ( i = 0; i <=9 ; i++)
     {
         printf("\n Value=%d Value=%d Address=%u",*(p+i),a[i],p+i);
     }
-    return 0;    
+    return 0;
 }
