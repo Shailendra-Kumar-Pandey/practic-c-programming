@@ -1,33 +1,32 @@
 /* write a program to print and store an array size 5 sorting descending order and print */
 #include<stdio.h>
-int sort(int *);
+void sort(int *);
 void display(int *);
 int main()
 {
-    int a[5],i,s;
+    int a[5],i,s[5];
     for ( i = 0; i <= 4; i++)
     {
         printf("\nEnter the number:");
         scanf("%d",&a[i]);
     }
-    s=sort(a);
-    display(s);
+    sort(a);
+    display(a);
     return 0;
 }
-int sort(int *x)
+void sort(int *x)
 {   int i,j,big;
     for ( i = 0; i <=3; i++)
     {
         for ( j = i+1; j <=4 ; j++)
         {
-            if (*x[j]>*x[i])
+            if (*(x+j)>*(x+i))
             {
-                big = *x[i];
-                *x[i]=*x[j];
-                *x[j]=big;
+                big = *(x+i);
+                *(x+i)=*(x+j);
+                *(x+j)=big;
             }
         }
-        return (*x[i])
     }
 }
 void display(int *p)
