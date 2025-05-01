@@ -1,4 +1,4 @@
-/* Write a Program to Campare and Print of Biggest out of 2 Number */
+/* Write a Program to Compare and Print of Biggest out of 2 Number */
 // Method No.02
 #include<stdio.h>
 void big(int,int);
