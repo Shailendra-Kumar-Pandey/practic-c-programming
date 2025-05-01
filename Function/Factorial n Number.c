@@ -1,10 +1,11 @@
 /* Write a Program to calculate and print factorial of any Number */
+// Method-01  -    take something return something
 #include<stdio.h>
 float fact(float);
 int main()
 {
     float f1, m;
-    printf("\n How many Numbers of print Factorial : ");
+    printf("\n Enter any Number : ");
     scanf("%f",&m);
     f1 = fact(m);
     printf("\n Factorial is = %f",f1);
