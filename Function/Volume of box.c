@@ -1,4 +1,5 @@
 /* Write a program to calculate and print Volume of box */
+// Method No.01  -  taking something return something
 #include<stdio.h>
 int volume(int,int,int);
 int main()
@@ -12,11 +13,7 @@ int main()
 }
 int volume(int x, int y, int z)
 {
-    if(x>y && x>z)
-        return (x);
-    else
-        if(y>z)
-            return (y);
-        else
-            return (z);
+    int volume;
+    volume = x * y * z;
+    return(volume);   
 }
