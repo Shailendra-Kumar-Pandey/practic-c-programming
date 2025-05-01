@@ -1,5 +1,5 @@
 /* Write a Program to Compare and Print of Biggest out of 2 Number */
-// Method No.02
+// Method No.02  -  taking something return nothing
 #include<stdio.h>
 void big(int,int);
 int main()

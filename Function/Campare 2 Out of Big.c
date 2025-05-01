@@ -1,4 +1,5 @@
 /* Write a Program to Campare and Print of Biggest out of 2 Number */
+// Method No.02  -  taking something return something
 #include<stdio.h>
 int big(int,int);
 int main()
