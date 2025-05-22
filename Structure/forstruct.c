@@ -1,0 +1,1 @@
+/* Write a program usage of an array of structure */
