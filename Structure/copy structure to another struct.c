@@ -1,0 +1,1 @@
+/* Write a program to copy structure of one structure to another structure */
