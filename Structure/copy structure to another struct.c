@@ -18,8 +18,8 @@ int main()
 
     /* Copying all elements at one go */
     e3 = e2;
-    printf("\n%s %d %f",e1.name,e1.age,e1.salary);
-    printf("\n%s %d %f",e2.name,e2.age,e2.salary);
-    printf("\n%s %d %f",e3.name,e3.age,e3.salary);
+    printf("\nEmployee Name = %s Employee age = %d Employee Salary = %f",e1.name,e1.age,e1.salary);
+    printf("\nEmployee Name = %s Employee age = %d Employee Salary = %f",e2.name,e2.age,e2.salary);
+    printf("\nEmployee Name = %s Employee age = %d Employee Salary = %f",e3.name,e3.age,e3.salary);
     return 0;
 }
