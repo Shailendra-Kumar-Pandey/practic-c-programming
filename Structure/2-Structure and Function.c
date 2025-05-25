@@ -7,7 +7,7 @@ struct book                 //Global Scope
     };
 void main()
 {
-    struct book b1 = {"Learning C","SVP",750};
+    struct book b1 = {"Learning C","SVP",800};
     display(b1);
 }
 display(struct book b)

@@ -8,9 +8,10 @@ void main()
         int pages;
     };
     struct book b1 = {"Learning C","SVP",750};
-    display(b1.name,b1.author.b1.pages);
+    display(b1.name,b1.author,b1.pages);
+    return 0;
 }
-display(char *s,char *t, int n)
+ display(char *s,char *t, int n)
 {
     printf("\n%s  %s  %d",s,t,n);
 }
