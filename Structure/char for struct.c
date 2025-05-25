@@ -17,5 +17,5 @@ int main()
     }
     for(i=0;i<=4;i++)
         printf("\n %c %f %d ",b[i].name,b[i].price,b[i].pages);
-    return 0;
+    return 0; 
 }
