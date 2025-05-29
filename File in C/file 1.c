@@ -13,7 +13,7 @@ void main()
         exit(1);
     }
     printf("\nEnter a few lines of text:\n");
-    while(strlen(gets(s))>0)
+    while(strlen(gets(s)) > 0)
     {
         fputs(s,fp);
         fputs("\n",fp);
