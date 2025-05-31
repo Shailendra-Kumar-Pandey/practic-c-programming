@@ -55,18 +55,25 @@ multiplication()
 }
 average()
 {
-    int a, b, c, add;
+    int a, b, c;
+    float avg;
     printf("\n Enter the 3 Number :- ");
     scanf("%d%d%d",&a,&b,&c);
-    add = a + b + c;
-    printf("\nAverage = %d \n",add);
+    avg = (a + b + c)/3.0;
+    printf("\nAverage = %d \n",avg);
 }
 biggest()
 {
     int a, b, c, big;
     printf("\n Enter the 3 Number :- ");
     scanf("%d%d%d",&a,&b,&c);
-    big = a + b + c;
+    if(a>b && a>c)
+        big = a;
+    else
+        if(b>c)
+            big = b;
+        else
+            big = c;
     printf("\nBiggest = %d \n",big);
 }
 smallest()
@@ -74,13 +81,12 @@ smallest()
     int a, b, c, small;
     printf("\n Enter the 3 Number :- ");
     scanf("%d%d%d",&a,&b,&c);
-    if( a < small)
+    if(a<b && a<c)
         small = a;
     else
-        if( b < small)
+        if(b<c)
             small = b;
         else
-            if(c < small)
-                small = c;
+            small = c;
     printf("\nSmallest = %d \n",small);
 }
