@@ -37,22 +37,25 @@ int main()
     }while(enterCode != 6);
     return 0;
 }
+// This Function Add to Number
 addition()
 {
     int a, b, c, add;
     printf("\n Enter the 3 Number :- ");
     scanf("%d%d%d",&a,&b,&c);
     add = a + b + c;
-    printf("\nAddition = %d \n",add);
+    printf("\nAddition is = %d \n",add);
 }
+// This Function Multiplication to Number
 multiplication()
 {
     int a, b, c, multi;
     printf("\n Enter the 3 Number :- ");
     scanf("%d%d%d",&a,&b,&c);
     multi = a * b * c;
-    printf("\nMultiplication = %d \n",multi);
+    printf("\nMultiplication is = %d \n",multi);
 }
+// This Function Average to Number
 average()
 {
     int a, b, c;
@@ -60,8 +63,9 @@ average()
     printf("\n Enter the 3 Number :- ");
     scanf("%d%d%d",&a,&b,&c);
     avg = (a + b + c)/3.0;
-    printf("\nAverage = %d \n",avg);
+    printf("\nAverage is = %f \n",avg);
 }
+// This Function find Biggest Number
 biggest()
 {
     int a, b, c, big;
@@ -74,8 +78,9 @@ biggest()
             big = b;
         else
             big = c;
-    printf("\nBiggest = %d \n",big);
+    printf("\nBiggest Number is = %d \n",big);
 }
+// This Function find Smallest Number
 smallest()
 {
     int a, b, c, small;
@@ -88,5 +93,5 @@ smallest()
             small = b;
         else
             small = c;
-    printf("\nSmallest = %d \n",small);
+    printf("\nSmallest Number is = %d \n",small);
 }
