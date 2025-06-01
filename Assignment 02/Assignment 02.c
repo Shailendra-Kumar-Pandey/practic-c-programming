@@ -19,3 +19,10 @@
 
     Enter your choice(1-6):-
   */
+ #include<stdio.h>
+ int main()
+ {
+    FILE *sd;
+    sd
+    return 0;
+ }
