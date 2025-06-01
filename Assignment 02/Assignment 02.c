@@ -23,6 +23,6 @@
  int main()
  {
     FILE *sd;
-    sd
+    sd = fopen("DATA.TXT","w");
     return 0;
  }
