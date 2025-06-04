@@ -23,6 +23,8 @@
  int main()
  {
     FILE *sd;
+    char another = 'Y';
     sd = fopen("DATA.TXT","w");
+    struct 
     return 0;
  }
